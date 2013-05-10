@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Kristian Mandrup"]
-  s.date = "2012-08-31"
+  s.authors = ["Kristian Mandrup","Martin Van Aken"]
+  s.date = "2013-05-10"
   s.description = "Makes it easy to add Pie charts to Rails 3+ apps"
   s.email = "kmandrup@gmail.com"
   s.extra_rdoc_files = [
@@ -32,11 +32,11 @@ Gem::Specification.new do |s|
     "spec/easy_as_pie/view_helper_spec.rb",
     "spec/spec_helper.rb",
     "vendor/assets/javascripts/excanvas.js",
-    "vendor/assets/javascripts/jquery.easy-pie-chart.js",
-    "vendor/assets/javascripts/jquery.easy-pie-chart.js.coffee",
-    "vendor/assets/stylesheets/jquery.easy-pie-chart.css"
+    "vendor/assets/javascripts/jquery-easy-pie-chart.js",
+    "vendor/assets/javascripts/jquery-easy-pie-chart.js.coffee",
+    "vendor/assets/stylesheets/jquery-easy-pie-chart.css"
   ]
-  s.homepage = "http://github.com/kristianmandrup/easy_as_pie"
+  s.homepage = "http://github.com/8thcolor/easy_as_pie"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
